@@ -1,0 +1,60 @@
+/*header*/
+header {
+    background-color: #1F2937;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FaF8;
+
+}
+/*link right*/
+li {
+    list-style-type: none;
+    display: inline;
+    font-size: 18px;
+    padding: 12px;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+/*header content/under navigation bar*/
+.headinfo {
+    display: flex;
+    padding: 35px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.headinfo > div {
+    flex: 1;
+    border-style: dotted;
+}
+
+.right {
+    
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8
+}
+
+p {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+button {
+    background-color: #3882F6;
+}
