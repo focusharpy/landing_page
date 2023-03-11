@@ -27,7 +27,13 @@ a {
     text-decoration: none;
 }
 
+
 /*header content/under navigation bar*/
+.mainbody {
+    display: flex;
+    flex-direction: column;
+}
+
 .headinfo {
     display: flex;
     padding: 35px;
@@ -83,10 +89,26 @@ img {
 
 /* Quote */
 .quotesection {
+    display: flex;
     background-color: E5E7EB;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote{
     font-size: 36px;
     color: #1F2937;
+    height: 65%;
+    width: 65%;
+    padding: 32px;
+}
+
+/* action section */
+
+.actionbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding: 32px;
 }
